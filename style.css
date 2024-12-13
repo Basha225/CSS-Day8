@@ -1,0 +1,903 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 10px;
+}
+.main1{
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* width: 1000px; */
+    /* height: 1000px; */
+}
+h1{
+    text-align: center;
+    text-decoration: 2px underline dashed grey;
+    margin-bottom: 30px;
+    color: rgb(44, 186, 233);
+    position: sticky;
+    top: 0;
+}
+h3{
+    margin-bottom: 30px;
+    color: red;
+    text-align: center;
+    text-decoration: 2px underline solid black;
+}
+h6{
+    margin-bottom: 20px;
+    /* font-size: 13px; */
+    color: blue;
+    text-decoration: 1px underline solid blue;
+}
+.container1{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;    /* it acts like a block level */
+    justify-content: space-between;      /* it acts like x axis or main axis works only when space or width is there */
+    width: 250px;
+    height: 300px;  
+    align-items: center;   /* it acts like y axis or cross axis works only when height or space on thw y axis */
+    flex-wrap: wrap; /* it controls the over flow when the element then wrap try to control it within the container */
+    
+    
+}
+
+.item{
+    padding: 20px;
+    border-radius: 10px;
+    /* width: 200px; */
+}
+.item-1{
+    background-color: yellow;
+    width: 40px;
+}
+.item-2{
+    background-color: red;
+    width: 70px;
+}
+.item-3{
+    background-color: purple;
+    width: 70px;
+}
+.item-4{
+    background-color: hotpink;
+    width: 40px;
+}
+.item-5{
+    background-color: green;
+    width: 70px;
+}
+.item-6{
+    background-color: orange;
+    width: 70px;
+}
+.item-7{
+    background-color: blue;
+    width: 40px;
+}
+.item-8{
+    background-color: darkgray;
+    width: 70px;
+}
+.item-9{
+    background-color: lime;
+    width: 70px;
+}
+
+
+/* Container 2 */
+.container2{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.col{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.col-1{
+    background-color: yellow;
+    height: 40px;
+}
+.col-2{
+    background-color: red;
+    height: 90px;
+}
+.col-3{
+    background-color: purple;
+    height: 90px;
+}
+.col-4{
+    background-color: hotpink;
+    height: 40px;
+}
+.col-5{
+    background-color: green;
+    height: 90px;
+}
+.col-6{
+    background-color: orange;
+    height: 90px;
+}
+.col-7{
+    background-color: blue;
+    height: 40px;
+}
+.col-8{
+    background-color: darkgray;
+    height: 90px;
+}
+.col-9{
+    background-color: lime;
+    height: 90px;
+}
+
+
+/* Container 3 */
+.container3{
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    margin: 20px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    height: 300px;
+    flex-wrap: wrap;
+    
+    
+}
+.row{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.row-1{
+    background-color: yellow;
+    width: 40px;
+}
+.row-2{
+    background-color: red;
+    width: 70px;
+}
+.row-3{
+    background-color: purple;
+    width: 70px;
+}
+.row-4{
+    background-color: hotpink;
+    width: 40px;
+}
+.row-5{
+    background-color: green;
+    width: 70px;
+}
+.row-6{
+    background-color: orange;
+    width: 70px;
+}
+.row-7{
+    background-color: blue;
+    width: 40px;
+}
+.row-8{
+    background-color: darkgray;
+    width: 70px;
+}
+.row-9{
+    background-color: lime;
+    width: 70px;
+}
+
+
+/* Container 4 */
+.container4{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 300px;
+    width: 250px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.colr{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.colr-1{
+    background-color: yellow;
+    height: 40px;
+}
+.colr-2{
+    background-color: red;
+    height: 90px;
+}
+.colr-3{
+    background-color: purple;
+    height: 90px;
+}
+.colr-4{
+    background-color: hotpink;
+    height: 40px;
+}
+.colr-5{
+    background-color: green;
+    height: 90px;
+}
+.colr-6{
+    background-color: orange;
+    height: 90px;
+}
+.colr-7{
+    background-color: blue;
+    height: 40px;
+}
+.colr-8{
+    background-color: darkgray;
+    height: 90px;
+}
+.colr-9{
+    background-color: lime;
+    height: 90px;
+}
+
+
+/* container 5 align items */
+
+
+.main2{
+    display: flex;
+}
+.container5{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    height: 200px;
+    width: 250px;
+    justify-content: space-between;
+}
+.str{
+    padding: 10px;
+    border-radius: 10px;
+}
+.start-1{
+    background-color: lime;
+    height: 40px;
+    width: 40px;
+}
+.start-2{
+    background-color: darkgray;
+    height: 90px;
+    width: 40px;
+}
+.start-3{
+    background-color: blue;
+    height: 40px;
+    width: 40px;
+}
+
+
+/* container 6 */
+.container6{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+    justify-content: space-between;
+}
+.c{
+    padding: 10px;
+    border-radius: 10px;
+}
+.cen-1{
+    background-color: lime;
+    height: 40px;
+    width: 40px;
+
+}
+.cen-2{
+    background-color: darkgray;
+    height: 90px;
+    width: 40px;
+}
+.cen-3{
+    background-color: blue;
+    height: 40px;
+    width: 40px;
+}
+
+/* Container7 */
+
+.container7{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 200px;
+    width: 250px;
+    justify-content: space-between;
+}
+.e{
+    padding: 10px;
+    border-radius: 10px;
+}
+.end-1{
+    background-color: lime;
+    height: 40px;
+    width: 40px;
+}
+.end-2{
+    background-color: darkgray;
+    height: 90px;
+    width: 40px;
+}
+.end-3{
+    background-color: blue;
+    height: 40px;
+    width: 40px;
+}
+
+
+/* container 8 */
+
+.container8{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 200px;
+    width: 300px;
+    justify-content: space-between;
+}
+.s{
+    padding: 10px;
+    border-radius: 10px;
+}
+.stretch-1{
+    background-color: lime;
+    width: 40px;
+}
+.stretch-2{
+    background-color: darkgray;
+    width: 40px;
+}
+.stretch-3{
+    background-color: blue;
+    width: 40px;
+}
+
+
+/* Main 3 Justify-content */
+.main3{
+    display: flex;
+}
+.container9{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 200px;
+    justify-content: flex-start;
+    width: 400px;
+}
+.fs{
+    padding: 10px;
+    margin: 10px;
+}
+.jst-1{
+    background-color: lime;
+    width: 40px;
+}
+.jst-2{
+    background-color: darkgray;
+    width: 40px;
+}
+.jst-3{
+    background-color: blue;
+    width: 40px;
+}
+
+/* container 10 */
+
+.container10{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 200px;
+    justify-content: center;
+    width: 400px;
+}
+.jc{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.jcen-1{
+    background-color: lime;
+    width: 40px;
+}
+.jcen-2{
+    background-color: darkgray;
+    width: 40px;
+}
+.jcen-3{
+    background-color: blue;
+    width: 40px;
+}
+
+
+/* main 4  */
+
+.main4{
+    display: flex;
+}
+/* container11 */
+.container11{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 200px;
+    justify-content: flex-end;
+    width: 400px;
+}
+.fe{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.jfe-1{
+    background-color: lime;
+    width: 40px;
+}
+.jfe-2{
+    background-color: darkgray;
+    width: 40px;
+}
+.jfe-3{
+    background-color: blue;
+    width: 40px;
+}
+
+/* container 12 */
+.container12{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 200px;
+    justify-content: space-between;
+    width: 400px;
+}
+.sb{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.sb-1{
+    background-color: lime;
+    width: 40px;
+}
+.sb-2{
+    background-color: darkgray;
+    width: 40px;
+}
+.sb-3{
+    background-color: blue;
+    width: 40px;
+}
+
+
+/* main 5 */
+.main5{
+    display: flex;
+}
+/* container 13 */
+.container13{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 200px;
+    justify-content: space-around;
+    width: 400px;
+}
+.sa{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.sa-1{
+    background-color: lime;
+    width: 40px;
+}
+.sa-2{
+    background-color: darkgray;
+    width: 40px;
+}
+.sa-3{
+    background-color: blue;
+    width: 40px;
+}
+
+
+/* container 14 */
+.container14{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 200px;
+    justify-content: space-evenly;
+    width: 400px;
+}
+.se{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.se-1{
+    background-color: lime;
+    
+    width: 40px;
+}
+.se-2{
+    background-color: darkgray;
+    width: 40px;
+}
+.se-3{
+    background-color: blue;
+    width: 40px;
+}
+
+/* main 6 Aling-items */
+.main6{
+    display: flex;
+}
+/* container 15 */
+.container15{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-between;
+    height: 300px;
+    width: 400px;
+    flex-wrap: wrap;
+    
+}
+.afs{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.afs-1{
+    background-color: lime;
+    width: 70px;
+    height: 40px;
+}
+.afs-2{
+    background-color: darkgray;
+    width: 90px;
+    height: 40px;
+
+}
+.afs-3{
+    background-color: blue;
+    width: 90px;
+    height: 40px;
+}
+.afs-4{
+    background-color: yellow;
+    width: 70px;
+    height: 40px;
+}
+.afs-5{
+    background-color: red;
+    width: 90px;
+    height: 40px;
+}
+.afs-6{
+    background-color: purple;
+    width: 90px;
+    height: 40px;
+}
+
+/* comtainer 16 */
+.container16{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    height: 300px;
+    width: 400px;
+    flex-wrap: wrap;
+    
+}
+.ac{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.ac-1{
+    background-color: lime;
+    width: 70px;
+    height: 40px;
+}
+.ac-2{
+    background-color: darkgray;
+    width: 90px;
+    height: 40px;
+}
+.ac-3{
+    background-color: blue;
+    width: 90px;
+    height: 40px;
+}
+.ac-4{
+    background-color: yellow;
+    width: 70px;
+    height: 40px;
+}
+.ac-5{
+    background-color: red;
+    width: 90px;
+    height: 40px;
+}
+.ac-6{
+    background-color: purple;
+    width: 90px;
+    height: 40px;
+}
+
+
+
+/* container 17 */
+.container17{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: space-between;
+    height: 300px;
+    width: 400px;
+    flex-wrap: wrap;
+    
+}
+.afe{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.afe-1{
+    background-color: lime;
+    width: 70px;
+    height: 40px;
+}
+.afe-2{
+    background-color: darkgray;
+    width: 90px;
+    height: 40px;
+}
+.afe-3{
+    background-color: blue;
+    width: 90px;
+    height: 40px;
+}
+.afe-4{
+    background-color: yellow;
+    width: 70px;
+    height: 40px;
+}
+.afe-5{
+    background-color: red;
+    width: 90px;
+    height: 40px;
+}
+.afe-6{
+    background-color: purple;
+    width: 90px;
+    height: 40px;
+}
+
+
+/* main 7 */
+.main7{
+    display: flex;
+}
+/* container 18 */
+.container18{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-between;
+    height: 300px;
+    width: 300px;
+    flex-wrap: wrap;
+    
+}
+.ast{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.ast-1{
+    background-color: lime;
+    width: 40px;
+    
+    
+}
+.ast-2{
+    background-color: darkgray;
+    width: 70px;
+}
+.ast-3{
+    background-color: blue;
+    width: 70px;
+}
+.ast-4{
+    background-color: yellow;
+    width: 40px;
+}
+.ast-5{
+    background-color: red;
+    width: 70px;
+}
+.ast-6{
+    background-color: purple;
+    width: 70px;
+}
+
+
+/* container 19 */
+.container19{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    height: 300px;
+    width: 400px;
+    flex-wrap: wrap;
+    
+}
+.asb{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.asb-1{
+    background-color: lime;
+    width: 70px;
+    height: 40px;
+}
+.asb-2{
+    background-color: darkgray;
+    width: 90px;
+    height: 40px;
+}
+.asb-3{
+    background-color: blue;
+    width: 90px;
+    height: 40px;
+}
+.asb-4{
+    background-color: yellow;
+    width: 70px;
+    height: 40px;
+}
+.asb-5{
+    background-color: red;
+    width: 90px;
+    height: 40px;
+}
+.asb-6{
+    background-color: purple;
+    width: 90px;
+    height: 40px;
+}
+
+/* container 20 */
+.container20{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-between;
+    height: 300px;
+    width: 400px;
+    flex-wrap: wrap;
+    
+}
+.asa{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.asa-1{
+    background-color: lime;
+    width: 70px;
+    height: 40px;
+}
+.asa-2{
+    background-color: darkgray;
+    width: 90px;
+    height: 40px;
+}
+.asa-3{
+    background-color: blue;
+    width: 90px;
+    height: 40px;
+}
+.asa-4{
+    background-color: yellow;
+    width: 70px;
+    height: 40px;
+}
+.asa-5{
+    background-color: red;
+    width: 90px;
+    height: 40px;
+}
+.asa-6{
+    background-color: purple;
+    width: 90px;
+    height: 40px;
+}
+
